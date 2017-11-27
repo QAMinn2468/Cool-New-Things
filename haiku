@@ -1,0 +1,9 @@
+/*define variables for each line
+*/
+var blow = "Blowing from the west\n"
+var fall = "Fallen leaves gather\n"
+var east = "In the east."
+/* Combine them together
+*/
+var haiku = blow + fall + east
+console.log(haiku);
