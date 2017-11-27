@@ -1,0 +1,6 @@
+/*
+ * Programming Quiz: Semicolons! (2-8)
+ */
+var thingOne = "Pixie";
+var thingTwo = "Dust";
+console.log(thingOne + thingTwo);
