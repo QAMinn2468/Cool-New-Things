@@ -8,7 +8,7 @@ var shirtLength = 30;
 var shirtSleeve = 8.71;
 
 // your code goes here
-if ((shirtWidth >= 18 && shirtWidth < 20 ) && (shirtLength >= 28 && shirtLength <= 29) && (shirtSleeve >= 8.13 && shirtSleeve <= 8.37)){
+if ((shirtWidth >=18 && shirtWidth <20 ) && (shirtLength >=28 && shirtLength <29) && (shirtSleeve >=8.13 && shirtSleeve <8.38)){
   console.log("S");
 }  else if ((shirtWidth >= 20 && shirtWidth < 22 ) && (shirtLength >= 29 && shirtLength < 30) && (shirtSleeve >= 8.38 && shirtSleeve < 8.63)){
   console.log("M");   
@@ -18,7 +18,7 @@ if ((shirtWidth >= 18 && shirtWidth < 20 ) && (shirtLength >= 28 && shirtLength 
   console.log("XL");    
 }  else if ((shirtWidth >= 26 && shirtWidth < 28) && (shirtLength >= 33 && shirtLength < 34) && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)){
   console.log("2XL");    
-}  else if ((shirtWidth >= 28 && shirtWidth < 30 ) && (shirtLength >= 34 && shirtLength < 35) && (shirtSleeve >= 10.13)){
+}  else if ((shirtWidth >= 28) && (shirtLength >= 34) && (shirtSleeve >= 10.13)){
   console.log("3XL");   
 }  else {
   console.log("N/A");
