@@ -1,0 +1,35 @@
+/*
+ * Programming Quiz: Back to School (3-9)
+ */
+
+// change the value of `education` to test your code
+var education = "no high school diploma";
+salary.toLocalString("en-US")
+// set the value of this based on a person's education
+var salary;
+
+switch (education){
+    case "no high school diploma":
+        var salary = "$25,636";
+        break;
+    case "a high school diploma":
+        var salary = "$35,256";
+        break;
+    case "an Associate's Degree":
+        var salary = "$35,256";
+        break;
+    case "a Bachelor's Degree":
+        var salary = "$59,124";
+        break;
+    case "a Master's Degree":
+        var salary = "$69,732";
+        break;
+    case "a Professional degree":
+        var salary = "$89,960";
+        break;
+    case "a Doctoral degree":
+        var salary = "$84,396";
+        break;
+}
+console.log("In 2015, a person with " + education + "earned an average of " + salary + "/year.")
+    
