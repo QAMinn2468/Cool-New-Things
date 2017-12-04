@@ -5,12 +5,11 @@
 var x = 1;
 
 while (x <=20) {
-    if (x % 3 === 0) && (x % 5 === 0) {
-        console.log("JuliaJames");
-    } else if (x % 3 === 0) {
-        console.log("Julia");
-    } else if (x % 5 === 0) {
-        console.log("James");
-    } else console.log(x)
-    x = x+1
+        var y= x % 5 ===0 && x % 3 === 0: "JuliaJames";
+            x % 5 === 0: "James";
+            x % 3 === 0): "Julia";
+            console.log(x);
+            x = x+1;
+        console.log(y)
 }
+
