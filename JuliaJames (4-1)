@@ -1,3 +1,4 @@
+
 /*
  * Programming Quiz: JuliaJames (4-1)
  */
@@ -5,11 +6,10 @@
 var x = 1;
 
 while (x <=20) {
-        var y= x % 5 ===0 && x % 3 === 0: "JuliaJames";
-            x % 5 === 0: "James";
-            x % 3 === 0): "Julia";
+        var y= (x % 5 ===0) && (x % 3 === 0)? "JuliaJames":
+            x % 5 === 0? "James":
+            x % 3 === 0? "Julia":
             console.log(x);
             x = x+1;
         console.log(y)
 }
-
