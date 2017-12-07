@@ -1,0 +1,13 @@
+/*
+ * Programming Quiz: Countdown, Liftoff! (4-3)
+ * 
+ * Using a while loop, print out the countdown output above.
+ */
+//set upper limit
+var x = 60;
+// set lower limit
+while (x >=0){
+    console.log("T-" + x + " seconds");
+    //decrement
+    x = (x-1);
+}
