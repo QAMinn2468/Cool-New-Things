@@ -10,18 +10,12 @@
  */
 // This defines the upper limit.
 var num = 99;
-var container = "bottles"
+var container = " bottles"
 
-// This defines the lower limit. 
-// The step is defined.
-// The main string is defined.
-// Bottle changes when num=1
-
-
-while (num >=0) {
-    console.log(num + " " + container + " of juice on the wall! " + num + " " + container + " of juice! Take one down, and pass it around . . . " + (num -1) + " " + container + " of juice on the wall!");
-    num =(num -1)
-    if (num === 1) {
-    (container = "bottle");
-}
-}
+while (num >=0){
+    if (num === 1){
+        container = " bottle"
+    }
+            console.log(num + container +" of juice on the wall! " + num + container + " of juice! Take one down, and pass it around . . . " + (num-1) + container + " of juice on the wall!");
+    num = (num - 1);
+    }
