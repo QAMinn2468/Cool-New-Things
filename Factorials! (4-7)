@@ -1,0 +1,10 @@
+/*
+ * Programming Quiz: Factorials (4-7)
+ */
+// set start, stop, increment
+var solution = 1;
+for (var x = 12; x >= 1; x--){
+solution *= (x);
+}
+// print result
+console.log(solution);
