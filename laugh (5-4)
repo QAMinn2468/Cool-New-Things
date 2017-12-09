@@ -1,0 +1,10 @@
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(num){
+    var giggle = "";
+    while (num-- > 0) giggle +="ha";
+return giggle + "!";
+}
+console.log(laugh(18));
