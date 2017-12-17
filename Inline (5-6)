@@ -1,0 +1,18 @@
+/*
+ * Programming Quiz: Inline Functions (5-6)
+ */
+
+// don't change this code
+function emotions(myString, myFunc) {
+    console.log("I am " + myString + ", " + myFunc(2));
+}
+// function providing haha
+var laugh = function myFunc (num){
+    var giggle = "";
+    while (num-- > 0) giggle +="ha";
+return giggle + "!";
+}
+
+// providing myString
+var myString = "";
+emotions("happy", laugh);
